@@ -1,0 +1,14 @@
+{
+  "name": "cfsm-iceglass-theme",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "Iceglass 冰蓝主题：CF-Server-Monitor 独立第三方主题",
+  "license": "MIT",
+  "engines": { "node": ">=20" },
+  "scripts": {
+    "dev": "node scripts/preview.mjs",
+    "preview": "node scripts/preview.mjs",
+    "test": "node --test tests/client.test.mjs tests/model.test.mjs"
+  }
+}
